@@ -1,0 +1,166 @@
+body,a,ol,li,dd,dt,ul,li,p {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+body {
+	background: #e9e9e9;
+	font-size: 16px;
+    color:#333;
+}
+a {
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+}
+.padding-no {
+	padding: 0;color:#1b212c;
+}
+
+/*icon*/
+.icon-home-w {
+	background: url("../images/header/qiye.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+}
+.icon-home {
+	background: url("../images/header/qiye-2.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+}
+.icon-peoples {
+	background: url("../images/header/USERS.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 15px;
+}
+.icon-peoples-w {
+	background: url("../images/header/USERS-2.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 15px;
+}
+.icon-people {
+	background: url("../images/header/USER-ok.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+}
+.icon-people-w {
+	background: url("../images/header/USER-ok2.png") no-repeat center;
+	background-size: 100%;
+	width: 20px;
+	height: 20px;
+}
+.icon-arrow-left {
+	background: url("../images/header/arrow-left.png") no-repeat center;
+	background-size: 100%;
+	width: 10px;
+	height: 12px;
+	display: inline-block;
+}
+.icon-line {
+	display: inline-block;
+	width: 30px;
+	height: 1px;
+	border-top: 1px solid #000000;
+	margin-bottom: 10px;
+}
+.icon-name {
+	background: url("../images/header/USER.png") no-repeat center left;
+	background-size: 20px;
+	width: 100%;
+	height: 20px;
+	padding-left: 30px;
+	margin-top: 5px;
+	display: inline-block;
+    color: #333;
+	font-weight:500;
+}
+.icon-map {
+	background: url("../images/header/map.png") no-repeat center bottom;
+	background-size: 15px;
+	width: 15px;
+	height: 20px;
+	padding-left: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.icon-table {
+	background: url("../images/header/TAGS.png") no-repeat center left;
+	background-size: 20px;
+	width: 100%;
+	height: 20px;
+	padding-left: 30px;
+	margin-top: 5px;
+	 color: #333;
+	font-weight:500;
+}
+.icon-lineW {
+	background: url("../images/header/line-w.png") repeat center left;
+	background-size: auto;
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	margin-bottom: 80px;
+}
+.icon-arrow-left-w {
+	background: url("../images/header/PLAY.png") no-repeat center;
+	background-size: 100%;
+	width: 10px;
+	height: 12px;
+	display: inline-block;
+}
+/*动画*/
+.animate-90 {
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);		/* IE 9 */
+	-webkit-transform: rotate(45deg);	/* Safari and Chrome */
+	-o-transform: rotate(45deg);		/* Opera */
+	-moz-transform: rotate(45deg);		/* Firefox */
+}
+/*轮播*/
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*字体*/
+.title {
+	font-size: 20px;
+	color: #333333;
+	text-align: center;
+	margin-top: 30px;
+}
+.title-con {
+	font-size: 16px;
+	color: #999999;
+	margin-top: 15px;
+    line-height: 35px;
+}
+.Company-profile {
+	margin-top: 100px;
+}
+.main-title {
+	color: #1b212c;
+	text-align: center;
+	font-size: 30px;
+}
+/*字体颜色*/
+.font-blue {
+	color: #29abe2;
+}
+/*背景模块*/
+.bg-white {
+	background: #ffffff;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.icon-posi{
+    height: 20px;display: block;line-height: 20px;float: right;padding-top: 6px;
+}
